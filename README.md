@@ -86,5 +86,12 @@ For all the other commands, the CRUD command would work fine on the command line
 Could not get this part as i was unable to understand how the query was parsed
 
 
+### Review/Comments
+
+The over all assignment was easy to understand in regards to what was being asked.
+My main struggle was trying to get the hang of postman and since i never used the tool before i spent alot of time on it, especially with adding CRUD commands that work on the command line but give and error in postman.
+As i have never done API testing before i was unable to complete the Automation testing step that was asked
+
+
 
 
