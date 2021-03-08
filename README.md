@@ -65,10 +65,12 @@ For all the other commands, the CRUD command would work fine on the command line
 #### MESSAGE EXAMPLES
 
 **Create Message**
-1. curl -X POST -d "{\"fromID\":\"d3517764-8045-11eb-80a8-a0a4c514fdba\",\"toID\":\"d3517764-8045-11eb-80a8-a0a4c514fdba\",\"message\":\"Hello User ddddd\"}" -H Content-Type:application/json http://127.0.0.1:5000/message
+1. Through Postman
+2. curl -X POST -d "{\"fromID\":\"d3517764-8045-11eb-80a8-a0a4c514fdba\",\"toID\":\"d3517764-8045-11eb-80a8-a0a4c514fdba\",\"message\":\"Hello User ddddd\"}" -H Content-Type:application/json http://127.0.0.1:5000/message
 
 **Get Messages**
-1. curl -X GET  http://127.0.0.1:5000/message
+1. Through Postman
+2. curl -X GET  http://127.0.0.1:5000/message
 
 **Get message by Message ID**
 1. curl -X GET -d "{\"id\":\"fdc24490-8045-11eb-91ef-a0a4c514fdba\"}" -H Content-Type:application/json http://127.0.0.1:5000/message/:id
@@ -80,6 +82,7 @@ For all the other commands, the CRUD command would work fine on the command line
 1. curl -X DELETE -d "{\"id\":\"fdc24490-8045-11eb-91ef-a0a4c514fdba\"}" -H Content-Type:application/json http://127.0.0.1:5000/message/:id
 
 **Get Messages between two users**
+
 Could not get this part as i was unable to understand how the query was parsed
 
 
